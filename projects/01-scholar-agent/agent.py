@@ -1,7 +1,6 @@
 from tools import calculator, word_counter, text_uppercase 
-
-def run_agent(command): 
-     command = command.lower() 
+def run_agent(command):
+     command = command.strip().lower() 
 
      if command == "uppercase": 
           text = input("Enter the text:") 
@@ -15,7 +14,7 @@ def run_agent(command):
           a = float(input("Enter the first number:")) 
           b = float(input("Enter the second number:")) 
           operation = input(
-                              "Enter operation (add/substract/multiply/devide):"
+                              "Enter operation (add/substract/multiply/devide): "
                             ) 
           return calculator(a,b,operation) 
      else: 
