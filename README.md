@@ -1,4 +1,3 @@
-# 100 Agentic AI & LLM Projects
 <div align="center">
 
 <img src="assets/llm-agentic-ai-layman-cover.png"
